@@ -1,0 +1,160 @@
+# this should be translated into a set of IDs. The method must simply check if found_item_ID in IDs
+# define a default rule
+---
+# everything is accepted so that if i want a dweller to pick it all, i simply define her as an empty dict
+# at the moment is an accept all, but if its easy to implement, i can give the option to drop it all
+
+expeditions:
+  78: {}
+  default:
+    dwellers:
+      rarity: []
+      sex: []
+    outfits:
+      rarity:
+        - "common"
+    pets: {}
+    weapons:
+      min_dmg:  "14"
+      rarity:
+        - "common"
+vault:
+  rooms:
+    Cafeteria:
+      dwellers:
+        outfit:
+          - 'HandymanJumpsuit_Expert'
+        quantity: '5'
+        special:
+          end: '10'
+          agi: '10'
+          lck: '10'
+    Geothermal:
+      dwellers:
+        outfit:
+          - 'MilitaryJumpsuit_Commander'
+        quantity: '5'
+        special:
+          str: '10'
+          end: '10'
+          lck: '10'
+    Energy2:
+      dwellers:
+        outfit:
+          - 'MilitaryJumpsuit_Commander'
+          - 'MilitaryJumpsuit_Officer'
+        quantity: '5'
+        special:
+          str: '10'
+          end: '10'
+          lck: '10'
+    Hydroponic:
+      dwellers:
+        outfit:
+          - 'UtilityJumpsuit_Heavy'
+        quantity: '5'
+        special:
+          end: '10'
+          agi: '10'
+          lck: '10'
+    MedBay:
+      dwellers:
+        outfit:
+          - 'InstituteJumper_Advanced'
+          - 'InstituteJumper_Expert'
+          - 'LabCoat_Expert'
+          - 'ScientistScrubs_Commander'
+        quantity: '5'
+        special:
+          end: '10'
+          int: '10'
+          lck: '10'
+    NukaCola:
+      dwellers:
+        outfit:
+          - 'DooWopOutfit'
+        quantity: '5'
+        special:
+          end: '10'
+          lck: '10'
+    OutfitFactory:
+      dwellers:
+        outfit:
+          - 'FlightSuit_Expert'
+        quantity: '6'
+        special:
+          str: '10'
+          per: '10'
+          end: '10'
+          cha: '10'
+          int: '10'
+          agi: '10'
+          lck: '10'
+    Radio:
+      dwellers:
+        outfit:
+          - 'AllNightware_Lucky'
+          - 'AllNightware_Naughty'
+        quantity: '4'
+        special:
+          end: '10'
+          cha: '10'
+          lck: '10'
+    ScienceLab:
+      dwellers:
+        outfit:
+          - 'InstituteJumper_Advanced'
+          - 'InstituteJumper_Expert'
+          - 'LabCoat_Expert'
+          - 'ScientistScrubs_Commander'
+        quantity: '5'
+        special:
+          end: '10'
+          int: '10'
+          lck: '10'
+    Storage:
+      dwellers:
+        outfit:
+          - 'BOSUniform'
+          - 'BOSUniform_Advanced'
+          - 'BOSUniform_Expert'
+        quantity: '3'
+        special:
+          str: '10'
+          per: '10'
+          end: '10'
+          cha: '10'
+          int: '10'
+          agi: '10'
+          lck: '10'
+    WaterPlant:
+      dwellers:
+        outfit:
+          - 'UtilityJumpsuit_Heavy'
+        quantity: '5'
+        special:
+          per: '10'
+          end: '10'
+          lck: '10'
+    Water2:
+      dwellers:
+        outfit:
+          - 'UtilityJumpsuit_Heavy'
+        quantity: '5'
+        special:
+          per: '10'
+          end: '10'
+          lck: '10'
+    WeaponFactory:
+      dwellers:
+        outfit:
+          - 'BittercupSpecial'
+        quantity: '6'
+        special:
+          str: '10'
+          per: '10'
+          end: '10'
+          cha: '10'
+          int: '10'
+          agi: '10'
+          lck: '10'

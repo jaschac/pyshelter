@@ -1,0 +1,64 @@
+---
+AlarmClock:
+  name: 'Alarm Clock'
+  rarity: 'normal'
+BaseballGlove:
+  name: 'Baseball Glove'
+  rarity: 'normal'
+DuctTape:
+  name: 'Duct Tape'
+  rarity: 'normal'
+Yarn:
+  name: 'Yarn'
+  rarity: 'normal'
+MagnifyingGlass:
+  name: 'Magnifying Glass'
+  rarity: 'normal'
+DeskFan:
+  name: 'Desk Fan'
+  rarity: 'normal'
+ToyCar:
+  name: 'Toy Car'
+  rarity: 'normal'
+BrahminHide:
+  name: 'Brahmin Hide'
+  rarity: 'rare'
+Camera:
+  name: 'Camera'
+  rarity: 'rare'
+Globe:
+  name: 'Globe'
+  rarity: 'rare'
+Microscope:
+  name: 'Microscope'
+  rarity: 'rare'
+TeddyBear:
+  name: 'Teddy Bear'
+  rarity: 'rare'
+Wonderglue:
+  name: 'Wonderglue'
+  rarity: 'rare'
+Shovel:
+  name: 'Shovel'
+  rarity: 'rare'
+ChemistrySet:
+  name: 'Chemistry Flask'
+  rarity: 'legendary'
+GiddyupButtercup:
+  name: 'Giddyup Buttercup'
+  rarity: 'legendary'
+GoldWatch:
+  name: 'Gold Watch'
+  rarity: 'legendary'
+MilitaryDuctTape:
+  name: 'Military Duct Tape'
+  rarity: 'legendary'
+TriFoldFlag:
+  name: 'Trifold American Flag'
+  rarity: 'legendary'
+YaoGuaiHide:
+  name: 'Yao Guai Hide'
+  rarity: 'legendary'
+MilitaryCircuitBoard:
+  name: 'Military Grade Circuit Bboard'
+  rarity: 'legendary'

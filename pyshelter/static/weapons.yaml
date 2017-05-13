@@ -1,0 +1,1292 @@
+# Manually curated details of the weapons.
+# Part of the information was taken from http://fallout.wikia.com/wiki/Fallout_Shelter_weapons.
+# add family: unarmed, melee, ballistic, laser, big gun
+---
+Fist:
+  aoe: false
+  class: 'fist'
+  dmg: '1'
+  family: 'unarmed'
+  name: 'Fist'
+  rarity: 'n/a'
+bubu:
+  aoe: false
+  class: 'melee'
+  dmg: '5-15'
+  family: 'melee'
+  name: 'Baseball Bat'
+  rarity: 'rare'
+Melee_ButcherKnife:
+  aoe: false
+  class: 'melee'
+  dmg: '8-18'
+  family: 'melee'
+  name: 'Butcher Knife'
+  rarity: 'rare'
+tejetjjet:
+  aoe: false
+  class: 'melee'
+  dmg: '3-11'
+  family: 'melee'
+  name: 'Kitchen Knife'
+  rarity: 'rare'
+tjetjetje:
+  aoe: false
+  class: 'melee'
+  dmg: '11-21'
+  family: 'melee'
+  name: 'Pickaxe'
+  rarity: 'rare'
+ggjjgj:
+  aoe: false
+  class: 'melee'
+  dmg: '0-8'
+  family: 'melee'
+  name: 'Pool Cue'
+  rarity: 'rare'
+Melee_FireHydrantBat:
+  aoe: false
+  class: 'melee'
+  dmg: '19-31'
+  family: 'melee'
+  name: 'Fire Hydrant Bat'
+  rarity: 'legendary'
+Melee_RaiderSword:
+  aoe: false
+  class: 'melee'
+  dmg: '16-28'
+  family: 'melee'
+  name: 'Relentless Raider Sword'
+  rarity: 'legendary'
+032Pistol_Rusty:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1'
+  family: 'ballistic'
+  name: 'Rusty .32 Pistol'
+  rarity: 'common'
+032Pistol:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1-2'
+  family: 'ballistic'
+  name: '.32 Pistol'
+  rarity: 'common'
+032Pistol_Enhanced:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1-3'
+  family: 'ballistic'
+  name: 'Enhanced .32 Pistol'
+  rarity: 'common'
+032Pistol_Hardened:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1-4'
+  family: 'ballistic'
+  name: 'Hardened .32 Pistol'
+  rarity: 'rare'
+032Pistol_ArmorPiercing:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1-5'
+  family: 'ballistic'
+  name: 'Armor Piercing .32 Pistol'
+  rarity: 'rare'
+032Pistol_WildBillsSidearm:
+  aoe: false
+  class: '.32 pistol'
+  dmg: '1-6'
+  family: 'ballistic'
+  name: 'Wild Bill'
+  rarity: 'legendary'
+Pistol_Rusty:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2'
+  family: 'ballistic'
+  name: 'Rusty 10mm Pistol'
+  rarity: 'common'
+Pistol:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2-3'
+  family: 'ballistic'
+  name: '10mm Pistol'
+  rarity: 'common'
+Pistol_Enhanced:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2-4'
+  family: 'ballistic'
+  name: 'Enhanced 10mm Pistol'
+  rarity: 'common'
+Pistol_Hardened:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2-5'
+  family: 'ballistic'
+  name: 'Hardened 10mm Pistol'
+  rarity: 'rare'
+Pistol_ArmorPiercing:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2-6'
+  family: 'ballistic'
+  name: 'Armor Piercing 10mm Pistol'
+  rarity: 'rare'
+Pistol_LoneWanderer:
+  aoe: false
+  class: '10mm pistol'
+  dmg: '2-7'
+  family: 'ballistic'
+  name: 'Lone Wanderer'
+  rarity: 'legendary'
+Magnum_Rusty:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3'
+  family: 'ballistic'
+  name: 'Rusty Scoped .44 Pistol'
+  rarity: 'common'
+Magnum:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3-4'
+  family: 'ballistic'
+  name: 'Scoped .44 Pistol'
+  rarity: 'common'
+Magnum_Enhanced:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3-5'
+  family: 'ballistic'
+  name: 'Enhanced Scoped .44 Pistol'
+  rarity: 'common'
+Magnum_Hardened:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3-6'
+  family: 'ballistic'
+  name: 'Hardened Scoped .44 Pistol'
+  rarity: 'rare'
+Magnum_ArmorPiercing:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3-7'
+  family: 'ballistic'
+  name: 'Armor Piercing Scoped .44 Pistol'
+  rarity: 'rare'
+Magnum_Blackhawk:
+  aoe: false
+  class: 'scoped .44 pistol'
+  dmg: '3-8'
+  family: 'ballistic'
+  name: 'Blackhawk'
+  rarity: 'legendary'
+AssaultRifle_Rusty:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8'
+  family: 'ballistic'
+  name: 'Rusty Assault Rifle'
+  rarity: 'rare'
+AssaultRifle:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8-9'
+  family: 'ballistic'
+  name: 'Assault Rifle'
+  rarity: 'rare'
+AssaultRifle_Enhanced:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8-10'
+  family: 'ballistic'
+  name: 'Enhanced Assault Rifle'
+  rarity: 'rare'
+AssaultRifle_Hardened:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8-11'
+  family: 'ballistic'
+  name: 'Hardened Assault Rifle'
+  rarity: 'rare'
+AssaultRifle_ArmorPiercing:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8-12'
+  family: 'ballistic'
+  name: 'Armor Piercing Assault Rifle'
+  rarity: 'rare'
+AssaultRifle_Infiltrator:
+  aoe: false
+  class: 'assault rifle'
+  dmg: '8-13'
+  family: 'ballistic'
+  name: 'Infiltrator'
+  rarity: 'legendary'
+BBGun_Rusty:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-1'
+  family: 'ballistic'
+  name: 'Rusty BB Gun'
+  rarity: 'common'
+BBGun:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-2'
+  family: 'ballistic'
+  name: 'BB Gun'
+  rarity: 'common'
+BBGun_Enhanced:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-3'
+  family: 'ballistic'
+  name: 'Enhanced BB Gun'
+  rarity: 'common'
+BBGun_Hardened:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-4'
+  family: 'ballistic'
+  name: 'Hardened BB Gun'
+  rarity: 'rare'
+BBGun_ArmorPiercing:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-5'
+  family: 'ballistic'
+  name: 'Armor Piercing BB Gun'
+  rarity: 'rare'
+BBGun_RedRocket:
+  aoe: false
+  class: 'bb gun'
+  dmg: '0-6'
+  family: 'ballistic'
+  name: 'Red Rocket'
+  rarity: 'legendary'
+GaussRifle_Rusty:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16'
+  family: 'ballistic'
+  name: 'Rusty Gauss Rifle'
+  rarity: 'rare'
+GaussRifle:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16-17'
+  family: 'ballistic'
+  name: 'Gauss Rifle'
+  rarity: 'rare'
+GaussRifle_Enhanced:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16-18'
+  family: 'ballistic'
+  name: 'Enhanced Gauss Rifle'
+  rarity: 'legendary'
+GaussRifle_Hardened:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16-19'
+  family: 'ballistic'
+  name: 'Hardened Gauss Rifle'
+  rarity: 'legendary'
+GaussRifle_Accelerated:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16-20'
+  family: 'ballistic'
+  name: 'Accelerated Gauss Rifle'
+  rarity: 'legendary'
+GaussRifle_Magnetro4000:
+  aoe: false
+  class: 'gauss rifle'
+  dmg: '16-21'
+  family: 'ballistic'
+  name: 'Magnetron 4000'
+  rarity: 'legendary'
+refff333:
+  aoe: false
+  class: 'henrietta'
+  dmg: '13-16'
+  family: 'ballistic'
+  name: 'Henrietta'
+  rarity: 'legendary'
+HuntingRifle_Rusty:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5'
+  family: 'ballistic'
+  name: 'Rusty Hunting Rifle'
+  rarity: 'common'
+HuntingRifle:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5-6'
+  family: 'ballistic'
+  name: 'Hunting Rifle'
+  rarity: 'common'
+HuntingRifle_Enhanced:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5-7'
+  family: 'ballistic'
+  name: 'Enhanced Hunting Rifle'
+  rarity: 'common'
+HuntingRifle_Hardened:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5-8'
+  family: 'ballistic'
+  name: 'Hardened Hunting Rifle'
+  rarity: 'rare'
+HuntingRifle_ArmorPiercing:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5-9'
+  family: 'ballistic'
+  name: 'Armor Piercing Hunting Rifle'
+  rarity: 'rare'
+HuntingRifle_OlPainless:
+  aoe: false
+  class: 'hunting rifle'
+  dmg: '5-10'
+  family: 'ballistic'
+  name: "Ol' Painless"
+  rarity: 'legendary'
+Rifle_Rusty:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4'
+  family: 'ballistic'
+  name: 'Rusty Lever-Action Rifle'
+  rarity: 'common'
+Rifle:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4-5'
+  family: 'ballistic'
+  name: 'Lever-Action Rifle'
+  rarity: 'common'
+Rifle_Enhanced:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4-6'
+  family: 'ballistic'
+  name: 'Enhanced Lever-Action Rifle'
+  rarity: 'common'
+Rifle_Hardened:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4-7'
+  family: 'ballistic'
+  name: 'Hardened Lever-Action Rifle'
+  rarity: 'rare'
+Rifle_Enhanced_ArmorPiercing:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4-8'
+  family: 'ballistic'
+  name: 'Armor Piercing Lever-Action Rifle'
+  rarity: 'rare'
+Rifle_LincolnsRepeater:
+  aoe: false
+  class: 'lever-action rifle'
+  dmg: '4-9'
+  family: 'ballistic'
+  name: "Lincoln's Repeater"
+  rarity: 'legendary'
+Railgun_Rusty:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14'
+  family: 'ballistic'
+  name: 'Rusty Railway Rifle'
+  rarity: 'rare'
+Railgun:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14-15'
+  family: 'ballistic'
+  name: 'Railway Rifle'
+  rarity: 'rare'
+Railgun_Enhanced:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14-16'
+  family: 'ballistic'
+  name: 'Enhanced Railway Rifle'
+  rarity: 'rare'
+Railgun_Hardened:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14-17'
+  family: 'ballistic'
+  name: 'Hardened Railway Rifle'
+  rarity: 'legendary'
+Railgun_Accelerated:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14-18'
+  family: 'ballistic'
+  name: 'Accelerated Railway Rifle'
+  rarity: 'legendary'
+Railgun_Railmaster:
+  aoe: false
+  class: 'railway rifle'
+  dmg: '14-19'
+  family: 'ballistic'
+  name: 'Railmaster'
+  rarity: 'legendary'
+SniperRifle_Rusty:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10'
+  family: 'ballistic'
+  name: 'Rusty Sniper Rifle'
+  rarity: 'rare'
+SniperRifle:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10-11'
+  family: 'ballistic'
+  name: 'Sniper Rifle'
+  rarity: 'rare'
+SniperRifle_Enhanced:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10-12'
+  family: 'ballistic'
+  name: 'Enhanced Sniper Rifle'
+  rarity: 'rare'
+SniperRifle_Hardened:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10-13'
+  family: 'ballistic'
+  name: 'Hardened Sniper Rifle'
+  rarity: 'rare'
+SniperRifle_ArmorPiercing:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10-14'
+  family: 'ballistic'
+  name: 'Armor Piercing Sniper Rifle'
+  rarity: 'rare'
+SniperRifle_VictoryRifle:
+  aoe: false
+  class: 'sniper rifle'
+  dmg: '10-5'
+  family: 'ballistic'
+  name: 'Victory Rifle'
+  rarity: 'legendary'
+CombatShotgun_Rusty:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13'
+  family: 'ballistic'
+  name: 'Rusty Combat Shotgun'
+  rarity: 'rare'
+CombatShotgun:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13-14'
+  family: 'ballistic'
+  name: 'Combat Shotgun'
+  rarity: 'rare'
+CombatShotgun_Enhanced:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13-15'
+  family: 'ballistic'
+  name: 'Enhanced Combat Shotgun'
+  rarity: 'rare'
+CombatShotgun_Hardened:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13-16'
+  family: 'ballistic'
+  name: 'Hardened Combat Shotgun'
+  rarity: 'rare'
+CombatShotgun_DoubleBarrelled:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13-17'
+  family: 'ballistic'
+  name: 'Double-Barrel Combat Shotgun'
+  rarity: 'legendary'
+CombatShotgun_CharonsShotgun:
+  aoe: false
+  class: 'combat shotgun'
+  dmg: '13-18'
+  family: 'ballistic'
+  name: "Charon's Shotgun"
+  rarity: 'legendary'
+SawedOffShotgun_Rusty:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6'
+  family: 'ballistic'
+  name: 'Rusty Sawed-Off Shotgun'
+  rarity: 'common'
+SawedOffShotgun:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6-7'
+  family: 'ballistic'
+  name: 'Sawed-Off Shotgun'
+  rarity: 'common'
+SawedOffShotgun_Enhanced:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6-8'
+  family: 'ballistic'
+  name: 'Enhanced Sawed-Off Shotgun'
+  rarity: 'common'
+SawedOffShotgun_Hardened:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6-9'
+  family: 'ballistic'
+  name: 'Hardened Sawed-Off Shotgun'
+  rarity: 'rare'
+SawedOffShotgun_DoubleBarrelled:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6-10'
+  family: 'ballistic'
+  name: 'Double-Barrel Sawed-Off Shotgun'
+  rarity: 'rare'
+SawedOffShotgun_Kneecapper:
+  aoe: false
+  class: 'sawed-off shotgun'
+  dmg: '6-11'
+  family: 'ballistic'
+  name: 'Kneecapper'
+  rarity: 'legendary'
+Shotgun_Rusty:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9'
+  family: 'ballistic'
+  name: 'Rusty Shotgun'
+  rarity: 'rare'
+Shotgun:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9-10'
+  family: 'ballistic'
+  name: 'Shotgun'
+  rarity: 'rare'
+Shotgun_Enhanced:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9-11'
+  family: 'ballistic'
+  name: 'Enhanced Shotgun'
+  rarity: 'rare'
+Shotgun_Hardened:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9-12'
+  family: 'ballistic'
+  name: 'Hardened Shotgun'
+  rarity: 'rare'
+Shotgun_DoubleBarrelled:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9-13'
+  family: 'ballistic'
+  name: 'Double-Barrel Shotgun'
+  rarity: 'rare'
+Shotgun_FarmersDaughter:
+  aoe: false
+  class: 'shotgun'
+  dmg: '9-14'
+  family: 'ballistic'
+  name: "Farmer's Daughter "
+  rarity: 'legendary'
+AlienBlaster_Rusty:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18'
+  family: 'laser'
+  name: 'Rusty Alien Blaster'
+  rarity: 'legendary'
+AlienBlaster:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18-19'
+  family: 'laser'
+  name: 'Alien Blaster'
+  rarity: 'legendary'
+AlienBlaster_Tuned:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18-20'
+  family: 'laser'
+  name: 'Tuned Alien Blaster'
+  rarity: 'legendary'
+AlienBlaster_Focused:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18-21'
+  family: 'laser'
+  name: 'Focused Alien Blaster'
+  rarity: 'legendary'
+AlienBlaster_Amplified:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18-22'
+  family: 'laser'
+  name: 'Amplified Alien Blaster'
+  rarity: 'legendary'
+AlienBlaster_Destabilizer:
+  aoe: false
+  class: 'alien blaster'
+  dmg: '18-23'
+  family: 'laser'
+  name: 'Destabilizer'
+  rarity: 'legendary'
+LaserPistol_Rusty:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7'
+  family: 'laser'
+  name: 'Rusty Laser Pistol'
+  rarity: 'common'
+LaserPistol:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7-8'
+  family: 'laser'
+  name: 'Laser Pistol'
+  rarity: 'rare'
+LaserPistol_Tuned:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7-9'
+  family: 'laser'
+  name: 'Tuned Laser Pistol'
+  rarity: 'rare'
+LaserPistol_Focused:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7-10'
+  family: 'laser'
+  name: 'Focused Laser Pistol'
+  rarity: 'rare'
+LaserPistol_Amplified:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7-11'
+  family: 'laser'
+  name: 'Amplified Laser Pistol'
+  rarity: 'rare'
+LaserPistol_SmugglersEnd:
+  aoe: false
+  class: 'laser pistol'
+  dmg: '7-12'
+  family: 'laser'
+  name: "Smuggler's End"
+  rarity: 'legendary'
+PlasmaPistol_Rusty:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11'
+  family: 'laser'
+  name: 'Rusty Plasma Pistol'
+  rarity: 'rare'
+PlasmaPistol:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11-12'
+  family: 'laser'
+  name: 'Plasma Pistol'
+  rarity: 'rare'
+PlasmaPistol_Tuned:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11-13'
+  family: 'laser'
+  name: 'Tuned Plasma Pistol'
+  rarity: 'rare'
+PlasmaPistol_Focused:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11-14'
+  family: 'laser'
+  name: 'Focused Plasma Pistol'
+  rarity: 'rare'
+PlasmaPistol_Amplified:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11-15'
+  family: 'laser'
+  name: 'Amplified Plasma Pistol'
+  rarity: 'legendary'
+PlasmaPistol_MPLXNovasurge:
+  aoe: false
+  class: 'plasma pistol'
+  dmg: '11-16'
+  family: 'laser'
+  name: 'MPXL Novasurge'
+  rarity: 'legendary'
+LaserMusket:
+  aoe: false
+  class: 'laser musket'
+  dmg: '10-13'
+  family: 'laser'
+  name: 'Laser Musket'
+  rarity: 'legendary'
+LaserRifle_Rusty:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12'
+  family: 'laser'
+  name: 'Rusty Laser Rifle'
+  rarity: 'rare'
+LaserRifle:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12-13'
+  family: 'laser'
+  name: 'Laser Rifle'
+  rarity: 'rare'
+LaserRifle_Tuned:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12-14'
+  family: 'laser'
+  name: 'Tuned Laser Rifle'
+  rarity: 'rare'
+LaserRifle_Focused:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12-15'
+  family: 'laser'
+  name: 'Focused Laser Rifle'
+  rarity: 'rare'
+LaserRifle_Amplified:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12-16'
+  family: 'laser'
+  name: 'Amplified Laser Rifle'
+  rarity: 'legendary'
+LaserRifle_WaserWifle:
+  aoe: false
+  class: 'laser rifle'
+  dmg: '12-17'
+  family: 'laser'
+  name: 'Wazer Wifle'
+  rarity: 'legendary'
+PlasmaRifle_Rusty:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17'
+  family: 'laser'
+  name: 'Rusty Plasma Rifle'
+  rarity: 'rare'
+PlasmaRifle:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17-18'
+  family: 'laser'
+  name: 'Plasma Rifle'
+  rarity: 'rare'
+PlasmaRifle_Tuned:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17-19'
+  family: 'laser'
+  name: 'Tuned Plasma Rifle'
+  rarity: 'legendary'
+PlasmaRifle_Focused:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17-20'
+  family: 'laser'
+  name: 'Focused Plasma Rifle'
+  rarity: 'legendary'
+PlasmaRifle_Amplified:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17-22'
+  family: 'laser'
+  name: 'Amplified Plasma Rifle'
+  rarity: 'legendary'
+PlasmaRifle_MeanGreenMonster:
+  aoe: false
+  class: 'plasma rifle'
+  dmg: '17-23'
+  family: 'laser'
+  name: 'Mean Green Monster'
+  rarity: 'legendary'
+Fatman_Rusty:
+  aoe: true
+  class: 'fat man'
+  dmg: '22'
+  family: 'big gun'
+  name: 'Rusty Fat Man'
+  rarity: 'legendary'
+Fatman:
+  aoe: true
+  class: 'fat man'
+  dmg: '22-23'
+  family: 'big gun'
+  name: 'Fat Man'
+  rarity: 'legendary'
+Fatman_Enhanced:
+  aoe: true
+  class: 'fat man'
+  dmg: '22-24'
+  family: 'big gun'
+  name: 'Enhanced Fat Man'
+  rarity: 'legendary'
+Fatman_Hardened:
+  aoe: true
+  class: 'fat man'
+  dmg: '22-25'
+  family: 'big gun'
+  name: 'Hardened Fat Man'
+  rarity: 'legendary'
+Fatman_Guided:
+  aoe: true
+  class: 'fat man'
+  dmg: '22-26'
+  family: 'big gun'
+  name: 'Guided Fat Man'
+  rarity: 'legendary'
+Fatman_Mirv:
+  aoe: true
+  class: 'fat man'
+  dmg: '22-27'
+  family: 'big gun'
+  name: 'MIRV'
+  rarity: 'legendary'
+Flamer_Rusty:
+  aoe: false
+  class: 'flamer'
+  dmg: '15'
+  family: 'big gun'
+  name: 'Rusty Flamer'
+  rarity: 'rare'
+Flamer:
+  aoe: false
+  class: 'flamer'
+  dmg: '15-16'
+  family: 'big gun'
+  name: 'Flamer'
+  rarity: 'rare'
+Flamer_Enhanced:
+  aoe: false
+  class: 'flamer'
+  dmg: '15-17'
+  family: 'big gun'
+  name: 'Enhanced Flamer'
+  rarity: 'rare'
+Flamer_Hardened:
+  aoe: false
+  class: 'flamer'
+  dmg: '15-18'
+  family: 'big gun'
+  name: 'Hardened Flamer'
+  rarity: 'rare'
+Flamer_Pressurized:
+  aoe: false
+  class: 'flamer'
+  dmg: '15-19'
+  family: 'big gun'
+  name: 'Pressurized Flamer'
+  rarity: 'rare'
+Flamer_Burnmaster:
+  aoe: false
+  class: 'flamer'
+  dmg: '15-20'
+  family: 'big gun'
+  name: 'Burnmaster'
+  rarity: 'legendary'
+GatlingLaser_Rusty:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21'
+  family: 'big gun'
+  name: 'Rusty Gatling Laser'
+  rarity: 'legendary'
+GatlingLaser:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21-22'
+  family: 'big gun'
+  name: 'Gatling Laser'
+  rarity: 'legendary'
+GatlingLaser_Enhanced:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21-23'
+  family: 'big gun'
+  name: 'Enhanced Gatling Laser'
+  rarity: 'legendary'
+GatlingLaser_Hardened:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21-24'
+  family: 'big gun'
+  name: 'Hardened Gatling Laser'
+  rarity: 'legendary'
+GatlingLaser_Pressurized:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21-25'
+  family: 'big gun'
+  name: 'Pressurized Gatling Laser'
+  rarity: 'legendary'
+GatlingLaser_Vengeance:
+  aoe: false
+  class: 'gatling laser'
+  dmg: '21-26'
+  family: 'big gun'
+  name: 'Vengeance'
+  rarity: 'legendary'
+Minigun_Rusty:
+  aoe: false
+  class: 'minigun'
+  dmg: '19'
+  family: 'big gun'
+  name: 'Rusty Minigun'
+  rarity: 'legendary'
+Minigun:
+  aoe: false
+  class: 'minigun'
+  dmg: '19-20'
+  family: 'big gun'
+  name: 'Minigun'
+  rarity: 'legendary'
+Minigun_Enhanced:
+  aoe: false
+  class: 'minigun'
+  dmg: '19-21'
+  family: 'big gun'
+  name: 'Enhanced Minigun'
+  rarity: 'legendary'
+Minigun_Hardened:
+  aoe: false
+  class: 'minigun'
+  dmg: '19-22'
+  family: 'big gun'
+  name: 'Hardened Minigun'
+  rarity: 'legendary'
+Minigun_ArmorPiercing:
+  aoe: false
+  class: 'minigun'
+  dmg: '19-23'
+  family: 'big gun'
+  name: 'Armor Piercing Minigun'
+  rarity: 'legendary'
+Minigun_LeadBelcher:
+  aoe: false
+  class: 'minigun'
+  dmg: '19-24'
+  family: 'big gun'
+  name: 'Lead Belcher'
+  rarity: 'legendary'
+MissilLauncher_Rusty:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20'
+  family: 'big gun'
+  name: 'Rusty Missile Launcher'
+  rarity: 'legendary'
+MissilLauncher:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20-21'
+  family: 'big gun'
+  name: 'Missile Launcher'
+  rarity: 'legendary'
+MissilLauncher_Enhanced:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20-22'
+  family: 'big gun'
+  name: 'Enhanced Missile Launcher'
+  rarity: 'legendary'
+MissilLauncher_Hardened:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20-23'
+  family: 'big gun'
+  name: 'Hardened Missile Launcher'
+  rarity: 'legendary'
+MissilLauncher_ArmorPiercing:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20-24'
+  family: 'big gun'
+  name: 'Armor Piercing Missile Launcher'
+  rarity: 'legendary'
+MissilLauncher_MissLauncher:
+  aoe: true
+  class: 'missile launcher'
+  dmg: '20-25'
+  family: 'big gun'
+  name: 'Miss Launcher'
+  rarity: 'legendary'
+InstitutePistol:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '9-11'
+  family: 'laser'
+  name: 'Institute Pistol'
+  rarity: 'rare'
+InstitutePistol_Incendiary:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '10-13'
+  family: 'laser'
+  name: 'Incendiary Institute Pistol'
+  rarity: 'rare'
+InstitutePistol_Improved:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '11-15'
+  family: 'laser'
+  name: 'Improved Institute Pistol'
+  rarity: 'rare'
+InstitutePistol_Scoped:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '12-17'
+  family: 'laser'
+  name: 'Scoped Institute Pistol'
+  rarity: 'rare'
+InstitutePistol_Scattered:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '13-19'
+  family: 'laser'
+  name: 'Scattered Institute Pistol'
+  rarity: 'legendary'
+InstitutePistol_Apotheosis:
+  aoe: false
+  class: 'institute pistol'
+  dmg: '14-21'
+  family: 'laser'
+  name: 'Apotheosis'
+  rarity: 'legendary'
+InstituteRifle:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '14-16'
+  family: 'laser'
+  name: 'Institute Rifle'
+  rarity: 'rare'
+InstituteRifle_Excited:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '15-18'
+  family: 'laser'
+  name: 'Excited Institute Rifle'
+  rarity: 'rare'
+InstituteRifle_Long:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '16-20'
+  family: 'laser'
+  name: 'Long Institute Rifle'
+  rarity: 'legendary'
+vwvwvwvwvwrbrnrnnrrnrncxxcxcxcxccx:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '17-22'
+  family: 'laser'
+  name: 'Night-Vision Institute Rifle'
+  rarity: 'legendary'
+InstituteRifle_Targeting:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '18-24'
+  family: 'laser'
+  name: 'Targeting Institute Rifle'
+  rarity: 'legendary'
+3h3h3h5j5j5j:
+  aoe: false
+  class: 'institute rifle'
+  dmg: '19-26'
+  family: 'laser'
+  name: "Virgil's Rifle"
+  rarity: 'legendary'
+JunkJet:
+  aoe: false
+  class: 'junk jet'
+  dmg: '13-15'
+  family: 'big gun'
+  name: 'Junk Jet'
+  rarity: 'rare'
+JunkJet_RecoilCompensated:
+  aoe: false
+  class: 'junk jet'
+  dmg: '14-17'
+  family: 'big gun'
+  name: 'Recoil-Compensated Junk Jet'
+  rarity: 'rare'
+JunkJet_Tactical:
+  aoe: false
+  class: 'junk jet'
+  dmg: '15-19'
+  family: 'big gun'
+  name: 'Tactical Junk Jet'
+  rarity: 'rare'
+JunkJet_Electrified:
+  aoe: false
+  class: 'junk jet'
+  dmg: '16-21'
+  family: 'big gun'
+  name: 'Electrified Junk Jet'
+  rarity: 'legendary'
+JunkJet_Flaming:
+  aoe: false
+  class: 'junk jet'
+  dmg: '17-23'
+  family: 'big gun'
+  name: 'Flaming Junk Jet'
+  rarity: 'legendary'
+y636y46y46y6y4:
+  aoe: false
+  class: 'junk jet'
+  dmg: '18-25'
+  family: 'big gun'
+  name: "Technician's Revenge"
+  rarity: 'legendary'
+t4t4grsrrgrrg:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '1-3'
+  family: 'ballistic'
+  name: 'Pipe Pistol'
+  rarity: 'common'
+stuueuu:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '2-5'
+  family: 'ballistic'
+  name: 'Hair-Trigger Pipe Pistol'
+  rarity: 'common'
+t4vv4v2t:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '3-7'
+  family: 'ballistic'
+  name: 'Heavy Pipe Pistol'
+  rarity: 'common'
+tjetjtjejte:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '4-9'
+  family: 'ballistic'
+  name: 'Scoped Pipe Pistol'
+  rarity: 'rare'
+cvmcnvmcnmcnm:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '5-11'
+  family: 'ballistic'
+  name: 'Auto Pipe Pistol'
+  rarity: 'rare'
+geegnnnttntn:
+  aoe: false
+  class: 'pipe pistol'
+  dmg: '6-13'
+  family: 'ballistic'
+  name: 'Little Brother'
+  rarity: 'legendary'
+549j549j549j549j549j549j:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '5-7'
+  family: 'ballistic'
+  name: 'Pipe Rifle'
+  rarity: 'common'
+hhdhdghghggh454545454:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '6-9'
+  family: 'ballistic'
+  name: 'Calibrated Pipe Rifle'
+  rarity: 'rare'
+g349j24gj294gj25g:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '7-11'
+  family: 'ballistic'
+  name: 'Long Pipe Rifle'
+  rarity: 'rare'
+gbbgbj46j4:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '8-13'
+  family: 'ballistic'
+  name: 'Night-Vision Pipe Rifle'
+  rarity: 'rare'
+45y35yy55y3:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '9-15'
+  family: 'ballistic'
+  name: 'Bayoneted Pipe Rifle'
+  rarity: 'rare'
+bbrbrbrbr:
+  aoe: false
+  class: 'pipe rifle'
+  dmg: '10-17'
+  family: 'ballistic'
+  name: 'Big Sister'
+  rarity: 'legendary'
+PlasmaThrower:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '17-19'
+  family: 'laser'
+  name: 'Plasma Thrower'
+  rarity: 'legendary'
+PlasmaThrower_Agitated:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '18-21'
+  family: 'laser'
+  name: 'Agitated Plasma Thrower'
+  rarity: 'legendary'
+PlasmaThrower_Tactical:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '19-23'
+  family: 'laser'
+  name: 'Tactical Plasma Thrower'
+  rarity: 'legendary'
+PlasmaThrower_Boosted:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '20-25'
+  family: 'laser'
+  name: 'Boosted Plasma Thrower'
+  rarity: 'legendary'
+PlasmaThrower_Overcharged:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '21-27'
+  family: 'laser'
+  name: 'Overcharged Plasma Thrower'
+  rarity: 'legendary'
+PlasmaThrower_DragonsMaw:
+  aoe: false
+  class: 'plasma thrower'
+  dmg: '22-29'
+  family: 'laser'
+  name: "Dragon's Maw"
+  rarity: 'legendary'

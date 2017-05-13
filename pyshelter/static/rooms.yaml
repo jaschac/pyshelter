@@ -1,0 +1,115 @@
+---
+Armory:
+  family: 'training'
+  name: 'Training: Perception'
+Bar:
+  family: 'training'
+  name: 'Training: Charisma'
+BarberShop:
+  family: 'customization'
+  name: 'Barbershop'
+Cafeteria:
+  capacity: [[50, 100, 150], [10, 22, 34], [100, 200, 300]]
+  name: 'Hydroponics I'
+  output: [[8, 18, 28], [10, 22, 34], [12, 26, 40]]
+  special: 'agi'
+  type: 'resources'
+Casino:
+  family: 'training'
+  name: 'Training: Luck'
+Classroom:
+  family: 'training'
+  name: 'Training: Intelligence'
+Dojo:
+  family: 'training'
+  name: 'Training: Agility'
+Elevator:
+  family: 'utility'
+  name: 'Elevator'
+Energy2:
+  capacity: [[200, 400, 600], [300, 600, 900], [400, 800, 1200]]
+  family: 'resources'
+  name: 'Nuclear Reactor II'
+  output: [[13, 27, 57], [15, 32, 68], [19, 40, 85]]
+  special: ['str']
+Entrance:
+  family: 'utility'
+  name: 'Vault Entrance'
+FakeWasteland:
+  family: 'dummy'
+  name: 'Wasteland'
+Geothermal:
+  capacity: [[50, 100, 150], [75, 150, 225], [100, 200, 300]]
+  name: 'Nuclear Reactor I'
+  output: [[10, 21, 44], [12, 25, 52], [15, 31, 66]]
+  special: 'str'
+  type: 'resources'
+Gym:
+  family: 'training'
+  name: 'Training: Strength'
+Hydroponic:
+  capacity: [[50, 100, 150], [75, 150, 225], [100, 200, 300]]
+  family: 'resources'
+  name: 'Hydroponics II'
+  output: [[10, 22, 35], [12, 27, 46], [15, 31, 55]]
+  special: ['agi']
+LivingQuarters:
+  capacity: [[8, 18, 28], [10, 22, 34], [12, 26, 40]]
+  family: 'recruitment'
+  name: 'Quarters'
+  special: ['cha']
+MedBay:
+  capacity: [[10, 20, 30], [10, 20, 30], [10, 20, 30]]
+  family: 'resources'
+  name: 'MedBay'
+  output: [[1, 3, 4], [2, 6, 8], [3, 9, 12]]
+  special: ['int']
+NukaCola:
+  capacity: [[50, 100, 150], [75, 150, 225], [100, 200, 300]]
+  family: 'resources'
+  name: 'Nuka-Cola Bottler'
+  output: [[10, 22, 35], [12, 27, 46], [15, 33, 55]]
+  special: ['end']
+OutfitFactory:
+  family: 'crafting'
+  name: 'Outfits Workshop'
+  special: ['str', 'per', 'end', 'cha', 'int', 'agi', 'lck']
+Overseer:
+  family: 'utility'
+  name: "Overseer's Office"
+Radio:
+  family: 'recruitment'
+  name: "Radio Studio"
+  special: ['cha']
+Rock:  # dummy room used to fill spaces
+  family: 'dummy'
+  name: "Rock"
+ScienceLab:
+  capacity: [[10, 20, 30], [10, 20, 30], [10, 20, 30]]
+  family: 'resources'
+  name: 'Science Laboratory'
+  output: [[1, 3, 4], [2, 6, 8], [3, 9, 12]]
+  special: ['int']
+Storage:
+  capacity: [[10,15, 25],[20, 45, 65],[ 30, 75, 125]]
+  name: 'Storage Room'
+  family: 'utility'
+SuperRoom2:
+  family: 'training'
+  name: 'Training: Endurance'
+WaterPlant:
+  capacity: [[50, 100, 150], [75, 150, 225], [100, 200, 300]]
+  name: 'Water Purification I'
+  output: [[8, 18, 28], [10, 22, 34], [ 12, 26, 40]]
+  special: 'per'
+  type: 'resources'
+Water2:
+  capacity: [[50, 100, 150], [75, 150, 225], [100, 200, 300]]
+  family: 'resources'
+  name: 'Water Purification II'
+  output: [[10, 22, 33], [12, 27, 41], [15, 33, 55]]
+  special: ['per']
+WeaponFactory:
+  family: 'crafting'
+  name: 'Weapons Workshop'
+  special: ['str', 'per', 'end', 'cha', 'int', 'agi']

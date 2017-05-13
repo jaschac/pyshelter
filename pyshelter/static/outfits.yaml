@@ -1,0 +1,879 @@
+---
+AllNightware:
+  name: 'Nightwear'
+  rarity: 'common'
+  special:
+    lck: '3'
+AllNightware_Lucky:
+  name: 'Lucky Nightwear'
+  rarity: 'legendary'
+  special:
+    lck: '7'
+AllNightware_Naughty:
+  name: 'Naughty Nightwear'
+  rarity: 'rare'
+  special:
+    lck: '5'
+BOSUniform:
+  name: 'BoS Uniform'
+  rarity: 'common'
+  special:
+    per: '2'
+    cha: '1'
+BOSUniform_Advanced:
+  name: 'Advanced BoS Uniform'
+  rarity: 'rare'
+  special:
+    per: '3'
+    cha: '2'
+BOSUniform_Expert:
+  name: 'Expert BoS Uniform'
+  rarity: 'legendary'
+  special:
+    per: '4'
+    cha: '3'
+DooWopOutfit:
+  name: 'Doo-Wop Singer'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    str: '1'
+    cha: '1'
+    agi: '1'
+    lck: '1'
+EngineerSpecial:
+  name: 'Engineer Outfit'
+  rarity: 'rare'
+  special:
+    end: '2'
+    int: '2'
+    lck: '1'
+FlightSuit:
+  name: 'Flight Suit'
+  rarity: 'common'
+  special:
+    end: '1'
+    agi: '2'
+FlightSuit_Advanced:
+  name: 'Advanced Flight Suit'
+  rarity: 'rare'
+  special:
+    end: '2'
+    agi: '3'
+FlightSuit_Expert:
+  name: 'Expert Flight Suit'
+  rarity: 'legendary'
+  special:
+    end: '3'
+    agi: '4'
+HandymanJumpsuit:
+  name: 'Handyman Jumpsuit'
+  rarity: 'common'
+  special:
+    agi: '3'
+HandymanJumpsuit_Advanced:
+  name: 'Advanced Handyman Jumpsuit'
+  rarity: 'rare'
+  special:
+    agi: '5'
+HandymanJumpsuit_Expert:
+  name: 'Expert Handyman Jumpsuit'
+  rarity: 'legendary'
+  special:
+    agi: '7'
+HazmatSuit:
+  name: 'Armored Vault Suit'
+  rarity: 'common'
+  special:
+    end: '3'
+HazmatSuit_Sturdy:
+  name: 'Sturdy Vault Suit'
+  rarity: 'rare'
+  special:
+    end: '5'
+HazmatSuit_Heavy:
+  name: 'Heavy Vault Suit'
+  rarity: 'legendary'
+  special:
+    end: '7'
+jumpsuit:
+  name: 'Vault Suit'
+  rarity: 'common'
+  special: {}
+LabCoat:
+  name: 'Lab Coat'
+  rarity: 'common'
+  special:
+    int: '3'
+LabCoat_Advanced:
+  name: 'Advanced Lab Coat'
+  rarity: 'rare'
+  special:
+    int: '5'
+LabCoat_Expert:
+  name: 'Expert Lab Coat'
+  rarity: 'legendary'
+  special:
+    int: '7'
+MilitaryJumpsuit:
+  name: 'Military Fatigues'
+  rarity: 'common'
+  special:
+    str: '3'
+MilitaryJumpsuit_Commander:
+  name: 'Commander Fatigues'
+  rarity: 'legendary'
+  special:
+    str: '7'
+MilitaryJumpsuit_Officer:
+  name: 'Officer Fatigues'
+  rarity: 'rare'
+  special:
+    str: '5'
+PiperSpecial:
+  name: "Piper's Outfit"
+  rarity: 'legendary'
+  sex: 'female'
+  special:
+    per: '2'
+    end: '2'
+    agi: '2'
+    lck: '2'
+ScribeRobe_Initiate:
+  name: 'Initiate Robe'
+  rarity: 'common'
+  special:
+    cha: '2'
+    agi: '1'
+ScribeRobe_Elder:
+  name: 'Elder Robe'
+  rarity: 'legendary'
+  special:
+    cha: '4'
+    agi: '3'
+ScribeRobe_Scribe:
+  name: 'Scribe Robe'
+  rarity: 'rare'
+  special:
+    cha: '3'
+    agi: '2'
+SoldierSpecial:
+  name: 'Soldier Uniform'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    str: '2'
+    end: '2'
+    lck: '1'
+UtilityJumpsuit:
+  name: 'Armored Vault Suit'
+  rarity: 'common'
+  special:
+    per: '3'
+UtilityJumpsuit_Sturdy:
+  name: 'Sturdy Vault Suit'
+  rarity: 'rare'
+  special:
+    per: '5'
+UtilityJumpsuit_Heavy:
+  name: 'Heavy Vault Suit'
+  rarity: 'legendary'
+  special:
+    per: '7'
+BattleArmor:
+  name: 'Battle Armor'
+  rarity: 'common'
+  special:
+    str: '2'
+    end: '1'
+BattleArmor_Sturdy:
+  name: 'Sturdy Battle Armor'
+  rarity: 'rare'
+  special:
+    str: '3'
+    end: '2'
+BattleArmor_Heavy:
+  name: 'Heavy Battle Armor'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    end: '3'
+CombatArmor:
+  name: 'Combat Armor'
+  rarity: 'common'
+  special:
+    str: '2'
+    agi: '1'
+CombatArmor_Sturdy:
+  name: 'Sturdy Combat Armor'
+  rarity: 'rare'
+  special:
+    str: '3'
+    agi: '2'
+CombatArmor_Heavy:
+  name: 'Heavy Combat Armor'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    agi: '3'
+FormalWear:
+  name: 'Formal Wear'
+  rarity: 'common'
+  special:
+    lck: '3'
+FormalWear_Fancy:
+  name: 'Fancy Formal Wear'
+  rarity: 'rare'
+  special:
+    lck: '5'
+FormalWear_Lucky:
+  name: 'Lucky Formal Wear'
+  rarity: 'legendary'
+  special:
+    lck: '7'
+WandererArmor:
+  name: 'Leather Armor'
+  rarity: 'common'
+  special:
+    str: '1'
+    end: '2'
+WandererArmor_Sturdy:
+  name: 'Sturdy Leather Armor'
+  rarity: 'rare'
+  special:
+    str: '2'
+    end: '3'
+WandererArmor_Heavy:
+  name: 'Heavy Leather Armor'
+  rarity: 'legendary'
+  special:
+    str: '3'
+    end: '4'
+RiotGear:
+  name: 'Merc Gear'
+  rarity: 'common'
+  special:
+    per: '1'
+    agi: '1'
+    lck: '1'
+RiotGear_Sturdy:
+  name: 'Sturdy Merc Gear'
+  rarity: 'rare'
+  special:
+    per: '1'
+    agi: '2'
+    lck: '2'
+RiotGear_Heavy:
+  name: 'Heavy Merc Gear'
+  rarity: 'legendary'
+  special:
+    per: '2'
+    agi: '3'
+    lck: '2'
+ScientistScrubs:
+  name: 'Junior Officer Uniform'
+  rarity: 'common'
+  special:
+    cha: '1'
+    int: '2'
+ScientistScrubs_Officer:
+  name: 'Officer Uniform'
+  rarity: 'rare'
+  special:
+    cha: '2'
+    int: '3'
+ScientistScrubs_Commander:
+  name: 'Commander Officer Uniform'
+  rarity: 'legendary'
+  special:
+    cha: '3'
+    int: '4'
+RadiationSuit:
+  name: 'Radiation Suit'
+  rarity: 'common'
+  special:
+    per: '1'
+    end: '2'
+RadiationSuit_Advanced:
+  name: 'Advanced Radiation Suit'
+  rarity: 'rare'
+  special:
+    per: '2'
+    end: '3'
+RadiationSuit_Expert:
+  name: 'Expert Radiation Suit'
+  rarity: 'legendary'
+  special:
+    per: '3'
+    end: '4'
+RaiderArmor:
+  name: 'Raider Armor'
+  rarity: 'common'
+  special:
+    per: '1'
+    agi: '2'
+RaiderArmor_Sturdy:
+  name: 'Sturdy Raider Armor'
+  rarity: 'rare'
+  special:
+    per: '2'
+    agi: '3'
+RaiderArmor_Heavy:
+  name: 'Heavy Raider Armor'
+  rarity: 'legendary'
+  special:
+    per: '3'
+    agi: '4'
+WastelandSurgeon_Settler:
+  name: 'Wasteland Medic'
+  rarity: 'common'
+  special:
+    per: '2'
+    lck: '1'
+WastelandSurgeon_Doctor:
+  name: 'Wasteland Doctor'
+  rarity: 'rare'
+  special:
+    per: '3'
+    lck: '2'
+WastelandSurgeon:
+  name: 'Wasteland Surgeon'
+  rarity: 'legendary'
+  special:
+    per: '4'
+    lck: '3'
+bvbvbvdffdfdfd:
+  name: 'Treasure Hunter Gear'
+  rarity: 'common'
+  special:
+    str: '2'
+    per: '1'
+t4t46ju6ju6jj6:
+  name: 'Bounty Hunter Gear'
+  rarity: 'rare'
+  special:
+    str: '3'
+    per: '2'
+gegetjyrjrysj:
+  name: 'Mutant Hunter Gear'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    per: '3'
+df57kjghtehe:
+  name: 'Sturdy Metal Armor'
+  rarity: 'rare'
+  special:
+    str: '3'
+    lck: '2'
+ddvpldvpldvplvdplvdpl3:
+  name: 'Heavy Metal Armor'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    lck: '3'
+InstituteJumper_Advanced:
+  name: 'Advanced Institute Jumper'
+  rarity: 'rare'
+  special:
+    int: '3'
+    agi: '2'
+InstituteJumper_Expert:
+  name: 'Expert Institute Jumper'
+  rarity: 'legendary'
+  special:
+    int: '4'
+    agi: '3'
+o3kr9iv8ea:
+  name: 'Mechanic Jumpsuit'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    str: '1'
+    cha: '1'
+23234y4yfgs23:
+  name: 'Polka Dot Sundress'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    str: '1'
+    int: '1'
+cmdoiehjvjw:
+  name: 'Pre-War Suburbanite'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    per: '1'
+    int: '1'
+vvvcccxxx:
+  name: 'Rural Schoolmarm'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    per: '1'
+    end: '1'
+vvdd33ss:
+  name: 'Spring Casualwear'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    end: '1'
+    agi: '1'
+dvvdngxx3333gngngn:
+  name: 'Vault Socialite'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    cha: '1'
+    agi: '1'
+4tf3tfh:
+  name: 'Accountant Outfit'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    per: '4'
+do54kv93ekd:
+  name: 'Agent Provocateur'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    int: '4'
+5yd3:
+  name: 'Bespoke Attire'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    end: '4'
+flfpeld:
+  name: 'Business Suit'
+  rarity: 'common'
+  sex: 'male'
+  special:
+    cha: '4'
+coutndkeok:
+  name: 'Country Girl'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    str: '4'
+bvbc:
+  name: 'Waitress Uniform'
+  rarity: 'common'
+  sex: 'female'
+  special:
+    agi: '4'
+s3r3r:
+  name: 'Bowling Shirt'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    per: '6'
+BishopSpecial:
+  name: 'Clergy Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    cha: '4'
+    lck: '1'
+sdfgswe:
+  name: 'Swing Dress'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    agi: '6'
+ComedianSpecial:
+  name: 'Comedian Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    per: '2'
+    cha: '2'
+    lck: '1'
+vceg:
+  name: 'Drag Racer'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    str: '1'
+    end: '1'
+    agi: '1'
+    lck: '1'
+4g4g4gdf4:
+  name: 'Post-War Casanova'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    per: '1'
+    cha: '1'
+    int: '1'
+    lck: '1'
+SodaFountainDress:
+  name: 'Soda Fountain Dress'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    per: '1'
+    end: '1'
+    int: '1'
+    lck: '1'
+dvokdvokdvokdvok:
+  name: 'Elf Outfit'
+  rarity: 'rare'
+  special:
+    int: '3'
+    lck: '2'
+3g3gh555h:
+  name: 'Ghost Costume'
+  rarity: 'rare'
+  special:
+    end: '2'
+    agi: '3'
+GreaserSpecial:
+  name: 'Greaser Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    cha: '2'
+    agi: '2'
+    lck: '1'
+SlasherSpecial:
+  name: 'Horror Fan Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    end: '4'
+    lck: '1'
+ccccdddw:
+  name: 'Knight Armor'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    str: '2'
+    per: '2'
+    lck: '1'
+LibrarianSpecial:
+  name: 'Librarian Outfit'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    int: '4'
+    lck: '1'
+MayorSpecial:
+  name: 'Mayor Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    cha: '2'
+    int: '2'
+    lck: '1'
+KingSpecial:
+  name: 'Medieval Ruler Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    per: '2'
+    cha: '2'
+    lck: '1'
+68l68l6l8l8h4:
+  name: 'Motorcycle Jacket'
+  rarity: 'rare'
+  special:
+    str: '6'
+MoviefanSpecial:
+  name: 'Movie Fan Outfit'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    per: '4'
+    lck: '1'
+NinjaSuit:
+  name: 'Ninja Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    agi: '4'
+    lck: '1'
+PrinceSpecial:
+  name: 'Nobility Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    end: '2'
+    int: '2'
+    lck: '1'
+sfggsfgddddgg54g4:
+  name: 'Pilgrim Outfit'
+  rarity: 'rare'
+  special:
+    cha: '2'
+    int: '3'
+ProfessorSpecial:
+  name: 'Professor Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    int: '4'
+    lck: '1'
+EmpressSpecial:
+  name: 'Republic Robes'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    cha: '4'
+    lck: '1'
+535h53h53h3h5:
+  name: 'Santa Suit'
+  rarity: 'rare'
+  special:
+    per: '3'
+    cha: '2'
+ScifiSpecial:
+  name: 'Sci-Fi Fan Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    int: '2'
+    agi: '2'
+    lck: '1'
+xffbfsbgfgs4vd2sfb:
+  name: 'Skeleton Costume'
+  rarity: 'rare'
+  special:
+    str: '2'
+    lck: '3'
+SportsfanSpecial:
+  name: 'Sports Fan Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    str: '4'
+    lck: '1'
+SurgeonSpecial:
+  name: 'Surgeon Outfit'
+  rarity: 'rare'
+  sex: 'female'
+  special:
+    per: '2'
+    agi: '2'
+    lck: '1'
+SurvivorSpecial:
+  name: Survivor Armor'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    str: '2'
+    agi: '2'
+    lck: '1'
+WrestlerSpecial:
+  name: 'Wrestler Outfit'
+  rarity: 'rare'
+  sex: 'male'
+  special:
+    str: '2'
+    end: '2'
+    lck: '1'
+cccxxwwdw44t4:
+  name: 'Baseball Uniform'
+  rarity: 'rare'
+  special:
+    agi: '4'
+    lck: '1'
+23334442323:
+  name: 'Lifeguard Outfit'
+  rarity: 'rare'
+  special:
+    per: '4'
+    lck: '1'
+232556677hgg323:
+  name: 'Swimsuit'
+  rarity: 'rare'
+  special:
+    end: '2'
+    cha: '2'
+    lck: '1'
+sfggsfgdgf44regfgg54g4:
+  name: "Abraham's Relaxed Wear"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    end: '1'
+    int: '2'
+    agi: '2'
+    lck: '2'
+4h2h4h4dd333f33344gfbsbfbf:
+  name: 'Tattered Long Coat'
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    str: '2'
+    end: '2'
+    cha: '2'
+    lck: '1'
+ColonelSpecial:
+  name: "Autumn's Uniform"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    str: '2'
+    per: '2'
+    end: '2'
+    cha: '1'
+BittercupSpecial:
+  name: "Bittercup's Outfit"
+  rarity: 'legendary'
+  sex: 'female'
+  special:
+    str: '2'
+    per: '2'
+    end: '2'
+    cha: '1'
+CromwellSpecial:
+  name: "Confessor Cromwell's Rags"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    end: '2'
+    int: '1'
+    lck: '2'
+EulogyJonesSpecial:
+  name: "Eulogy Jones' Suit"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    cha: '2'
+    int: '1'
+    lck: '2'
+0k2r0k2r8ge44545458jge:
+  name: 'Heavy Synth Armor'
+  rarity: 'legendary'
+  special:
+    end: '4'
+    int: '3'
+PrestonSpecial:
+  name: 'Minuteman Uniform'
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    str: '2'
+    per: '2'
+    cha: '2'
+    int: '2'
+RothchildSpecial:
+  name: "Scribe Rothchild's Robe"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    end: '2'
+    cha: '1'
+    int: '2'
+LucasSpecial:
+  name: "Sheriff's Duster"
+  rarity:  'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    end: '5'
+AlistairSpecial:
+  name: "Tenpenny's Suit"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    cha: '2'
+    int: '2'
+    lck: '1'
+ThreedogSpecial:
+  name: "Three Dog's Outfit"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    cha: '5'
+ButchSpecial:
+  name: "Tunnel Snakes' Outfit"
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '2'
+    end: '1'
+    cha: '2'
+    int: '2'
+PowerArmor_45a:
+  name: 'T-45a Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '2'
+    per: '3'
+PowerArmor_45d:
+  name: 'T-45d Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '2'
+    per: '4'
+PowerArmor_45f:
+  name: 'T-45f Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '2'
+    per: '5'
+PowerArmor_51a:
+  name: 'T-51a Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '3'
+    per: '1'
+PowerArmor_51d:
+  name: 'T-51d Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '3'
+    per: '2'
+PowerArmor_51f:
+  name: 'T-51f Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    per: '3'
+PowerArmor_60a:
+  name: ' T-60a Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '2'
+    end: '3'
+PowerArmor_60d:
+  name: ' T-60d Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '2'
+    end: '4'
+PowerArmor_60f:
+  name: ' T-60f Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '1'
+    per: '1'
+    end: '5s'
+PowerArmor_MkI:
+  name: 'X-01 Mk I Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '3'
+    per: '1'
+    end: '1'
+PowerArmor_MkIV:
+  name: 'X-01 Mk IV Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    per: '1'
+    end: '1'
+PowerArmor_MkVI:
+  name: 'X-01 Mk VI Power Armor'
+  rarity: 'legendary'
+  special:
+    str: '5'
+    per: '1'
+    end: '1'
