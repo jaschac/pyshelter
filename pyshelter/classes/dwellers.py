@@ -85,3 +85,44 @@ class Dwellers(list):
         except IndexError as e:
             print("There is no Dweller with ID %s." % (dweller_index))
             raise
+
+
+    def to_retrain(self, cutoff=85.0):
+        '''
+        Returns the Dwellers that are have less than 'cutoff' of their maximum
+        potential health. These Dwellers should be reset to level 1, train
+        their Endurance to 10, then sent to the Wasteland with a +7 Endurance
+        outfit until they reach level 50.
+
+        For each Dweller the following information is returned:
+        {id : {name, lastName, level, max_health_ratio, index}}
+        '''
+        if not isinstance(cutoff, (int, float)):
+            raise TypeError("The cutoff must be provided either as an "       \
+                "integer or a float, not %s." % (type(cutoff).__name__))
+
+        best_gear_end_bonus = 7
+        dwellers_to_retrain = defaultdict(dict)
+
+        for dweller in self:
+
+            dweller_max_health = dweller['health']['maxHealth']
+
+            dweller_max_potential_health = 105 +                              \
+                (dweller['experience']['currentLevel'] - 1) *                 \
+                (2.5 + 0.5 * (dweller['stats']['stats'][3]['value'] +         \
+                    best_gear_end_bonus))
+
+            max_health_ratio = (dweller_max_health * 100) /                   \
+                dweller_max_potential_health
+
+            if max_health_ratio < float(cutoff):
+                dwellers_to_retrain[dweller['serializeId']] = {
+                    'currentLevel' : dweller['experience']['currentLevel'],
+                    'index' : self.id_to_index(dweller['serializeId']),
+                    'lastName' : dweller['lastName'],
+                    'name' : dweller['name'],
+                    'max_health_ratio' : round(max_health_ratio, 2)
+                }
+
+        return dwellers_to_retrain
