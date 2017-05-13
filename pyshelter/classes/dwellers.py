@@ -2,13 +2,12 @@
 
 '''
 The Dwellers class represents the human inhabitants of the Vault. It references
-the top-level key 'dwellers'.
+the key 'dwellers' of the top-level key 'dwellers'. It no longer references
+other inhabitants of the Vault, such as pets and/or robots.
 '''
 
 from collections import defaultdict
 from pprint import pprint as pp
-
-from pyshelter import Dummy
 
 
 class Dwellers(list):
