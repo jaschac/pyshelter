@@ -1,0 +1,6 @@
+include LICENSE
+include metadata.json
+include README
+include README.md
+include REQUIREMENTS
+include pyshelter/static/*yaml

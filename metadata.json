@@ -1,0 +1,12 @@
+{
+  "author" : "Jascha Casadio",
+  "description": "A web application to manage Fallout Shelter(C) Vaults.",
+  "issues_url": "https://github.com/jaschac/pyshelter",
+  "license": "Apache-2.0",
+  "name": "pyshelter",
+  "project_page": "https://github.com/jaschac/pyshelter",
+  "source": "https://github.com/jaschac/pyshelter",
+  "summary": "Fallout Shelter(C) Vaults Manager",
+  "tags":["fallout"],
+  "version": "0.1.0"
+}
