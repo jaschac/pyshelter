@@ -10,7 +10,7 @@ from collections import defaultdict
 from json import dump, loads
 from pprint import pprint as pp
 
-from pyshelter import Dummy, Dwellers, Inventory, Resources, Vault
+from pyshelter import Dummy, Dwellers, Expeditions, Inventory, Resources, Vault
 
 
 class PyShelter(object):
@@ -27,6 +27,7 @@ class PyShelter(object):
         '''
         self.root = f_in
         self.dwellers = self.root['dwellers']['dwellers']
+        self.expeditions = self.root['vault']['wasteland']['teams']
         self.inventory = self.root["vault"]["inventory"]["items"]
         self.resources = self.root["vault"]["storage"]["resources"]
         self.vault = self.root['vault']
@@ -46,6 +47,22 @@ class PyShelter(object):
         Updates the dwellers tree.
         '''
         self._dwellers = Dwellers(value)
+
+
+    @property
+    def expeditions(self):
+        '''
+        Returns the expeditions tree.
+        '''
+        return self._expeditions
+
+
+    @expeditions.setter
+    def expeditions(self, value):
+        '''
+        Updates the expeditions tree.
+        '''
+        self._expeditions = Expeditions(value)
 
 
     @property

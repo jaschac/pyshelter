@@ -1,5 +1,6 @@
 from pyshelter.classes.dummy import Dummy
 from pyshelter.classes.dwellers import Dwellers
+from pyshelter.classes.expeditions import Expeditions
 from pyshelter.classes.inventory import Inventory
 from pyshelter.classes.resources import Resources
 from pyshelter.classes.rooms import Rooms
