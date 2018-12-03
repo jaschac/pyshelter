@@ -4,7 +4,7 @@ from os.path import dirname, realpath
 
 setup(
     author = 'Jascha Casadio',
-    author_email = 'jaschac@hotmail.com',
+    author_email = 'jaschacasadio@gmail.com',
     description = 'A web application to manage Fallout Shelter(C) Vaults',
     license = 'LICENSE',
     long_description = open('README').read(),

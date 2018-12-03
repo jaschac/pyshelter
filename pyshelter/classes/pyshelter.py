@@ -18,14 +18,14 @@ class PyShelter(object):
     The PyShelter class represents the interface to a saved Fallout Shelter
     game.
     '''
-    def __init__(self, input_file=None):
+    def __init__(self, f_in=None):
         '''
         Initializes a PyShelter instance. The class has a root which allows to
         control the whole JSON. All the top-level keys are first turned into
         dummies, which are merely references to subsections of the root, then,
         if needed, initialized as real class instances.
         '''
-        self.root = input_file
+        self.root = f_in
         self.dwellers = self.root['dwellers']['dwellers']
         self.inventory = self.root["vault"]["inventory"]["items"]
         self.resources = self.root["vault"]["storage"]["resources"]
