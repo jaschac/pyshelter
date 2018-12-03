@@ -27,6 +27,24 @@ class Dwellers(list):
         super(Dwellers, self).__init__(raw_data)
 
 
+    def coffee_break(self, dweller_index=None):
+        '''
+        Sets a Dweller on coffee break. This is achieved setting his savedRoom
+        attribute to -1.
+        ''' 
+        if dweller_index is None:
+            raise ValueError('The Dweller index is expected.')
+        if not isinstance(dweller_index, int):
+            raise TypeError("The Dweller index is expected as an int, not %s."   \
+                % (type(dweller_index).__name__))
+
+        try:
+            self[dweller_index]["savedRoom"] = -1
+        except Exception as e:
+            print(e)
+            raise
+
+
     def id_to_index(self, dweller_id=None):
         '''
         Lazily returns the index of a Dweller given its unique ID.
