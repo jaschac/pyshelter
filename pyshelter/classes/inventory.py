@@ -7,6 +7,10 @@ or Weapons, and are provided as a list of dictionaries, each with the mandatory
 'id' and 'type' keys.
 '''
 
+from pprint import pprint as pp
+
+from pyshelter.utils.io import load_static_data
+
 
 class Inventory(list):
     '''
@@ -34,3 +38,43 @@ class Inventory(list):
                 'a \'type\' key.')
 
         super(Inventory, self).__init__(raw_data)
+        self.sort(key=lambda x:x['id'])
+
+
+    def drop_junk(self, threshold=30):
+        '''
+        Drops excess junk from the storage, based on its quality. The method
+        iterates over the whole Inventory, checking types, quality and
+        quantity. Items are kept until the conditions are true for a given
+        item.
+        '''
+        static_data_junk = load_static_data('junk')
+
+        items_to_keep = []
+        
+        item_id = None
+        item_count = 0
+       
+        for item in self:
+
+            # not junk
+            if item['type'] != 'Junk':
+                items_to_keep.append(item)
+                continue
+
+            # not dropping rare and legendary items
+            if static_data_junk[item['id']]['rarity'] != 'normal':
+                items_to_keep.append(item)
+                continue
+
+            # new item
+            if item.get('id') != item_id:
+                item_id = item.get('id')
+                item_count = 0
+
+            # within limits
+            if item_count <= threshold:
+                items_to_keep.append(item)
+            item_count += 1
+
+        self.__init__(raw_data=items_to_keep)
