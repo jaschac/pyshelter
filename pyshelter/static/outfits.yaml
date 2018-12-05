@@ -175,6 +175,13 @@ UtilityJumpsuit_Sturdy:
   rarity: 'rare'
   special:
     per: '5'
+KnightSpecial:
+  name: 'Armored Vault Suit'
+  rarity: 'rare'
+  special:
+    str: '2'
+    per: '2'
+    lck: '1'
 UtilityJumpsuit_Heavy:
   name: 'Heavy Vault Suit'
   rarity: 'legendary'
