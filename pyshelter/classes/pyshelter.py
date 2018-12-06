@@ -128,6 +128,23 @@ class PyShelter(object):
         self.root['dwellers']['dwellers'] = value
 
 
+    def dweller_coffee_break(self, dweller_index=None):
+        '''
+        Sets a Dweller on coffee break. This is achieved setting his savedRoom
+        attribute to -1.
+        ''' 
+        if dweller_index is None:
+            raise ValueError('The Dweller index is expected.')
+        if not isinstance(dweller_index, int):
+            raise TypeError("The Dweller index is expected as an int, not %s."   \
+                % (type(dweller_index).__name__))
+
+        try:
+            self.dwellers[dweller_index]["savedRoom"] = -1
+        except Exception as e:
+            raise
+
+
     def dwellers_to_retrain(self, cutoff=85.0):
         '''
         Returns the Dwellers that are have less than 'cutoff' of their maximum
@@ -157,7 +174,10 @@ class PyShelter(object):
             max_health_ratio = (dweller_max_health * 100) /                   \
                 dweller_max_potential_health
 
-            if max_health_ratio < float(cutoff):
+            dweller_stats_sum = sum(stat['value'] \
+                for stat in dweller['stats']['stats'][1:])
+
+            if max_health_ratio < float(cutoff) and dweller_stats_sum == 70:
                 dwellers_to_retrain[dweller['serializeId']] = {
                     'currentLevel' : dweller['experience']['currentLevel'],
                     'index' : self.dweller_id_to_idx(dweller['serializeId']),
@@ -202,6 +222,16 @@ class PyShelter(object):
         self.root["vault"]["inventory"]['items'].sort(key=lambda x:x['id'])
 
 
+    def reset_daily(self):
+        '''
+        Resets the daily quest, so that it can be replayed again.
+        '''
+        daily = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][-1]
+        dailies_history = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][:-1]
+        self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'] = dailies_history
+        self.root['completedQuestDataManager']['dailyQuestPicker']['currentDailies'] = [daily]
+
+
     def reset_dweller(self, dweller_index):
         '''
         Resets a Dweller's experience and health to level 1, given its index.
@@ -241,8 +271,22 @@ class PyShelter(object):
         Updates the resources tree.
         '''
         self._resources = Resources(value)
-    
 
+
+    def retrain(self, dwellers=0, cutoff=85.0):
+        '''
+        Identifies N dwellers with max stats that need retrain, resets their
+        experience and assigns them to coffee break. Returns name and surname
+        of the candidates.
+        '''
+        dwellers_to_retrain = self.dwellers_to_retrain(cutoff=cutoff)
+        dwellers_to_retrain = list(dwellers_to_retrain.values())
+        retrained_dwellers = []
+        for dweller in dwellers_to_retrain[:dwellers]:
+            self.reset_dweller(dweller['index'])
+            self.dweller_coffee_break(dweller['index'])
+            retrained_dwellers.append("%s %s" % (dweller['name'], dweller['lastName']))
+        return retrained_dwellers
 
     @property
     def root(self):
