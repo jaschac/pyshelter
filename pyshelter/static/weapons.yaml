@@ -30,7 +30,7 @@ tejetjjet:
   family: 'melee'
   name: 'Kitchen Knife'
   rarity: 'rare'
-tjetjetje:
+Melee_Pickaxe:
   aoe: false
   class: 'melee'
   dmg: '11-21'

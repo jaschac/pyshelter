@@ -139,6 +139,15 @@ PiperSpecial:
     end: '2'
     agi: '2'
     lck: '2'
+Detective:
+  name: 'Detective Outfit'
+  rarity: 'legendary'
+  sex: 'male'
+  special:
+    per: '4'
+    end: '4'
+    int: '4'
+    lck: '4'
 ScribeRobe_Initiate:
   name: 'Initiate Robe'
   rarity: 'common'
@@ -469,7 +478,7 @@ bvbc:
   sex: 'female'
   special:
     agi: '4'
-s3r3r:
+BowlingShirt:
   name: 'Bowling Shirt'
   rarity: 'rare'
   sex: 'male'
@@ -523,6 +532,14 @@ SodaFountainDress:
     end: '1'
     int: '1'
     lck: '1'
+JobinsonsJersey:
+  name: 'Rackie Jobinsons Jersey'
+  rarity: 'legendary'
+  special:
+    str: '4'
+    per: '4'
+    cha: '4'
+    agi: '4'
 dvokdvokdvokdvok:
   name: 'Elf Outfit'
   rarity: 'rare'
