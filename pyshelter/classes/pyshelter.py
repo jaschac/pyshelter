@@ -313,7 +313,7 @@ class PyShelter(object):
         Writes back the data to the original JSON.
         '''
         with open(output_file, 'w') as f_output_file:
-            dump(self.root, f_output_file)
+            dump(self.root, f_output_file, indent=4, separators=(',', ':'))
 
 
     @property
