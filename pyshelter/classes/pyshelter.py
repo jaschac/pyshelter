@@ -252,6 +252,24 @@ class PyShelter(object):
         self.root['completedQuestDataManager']['dailyQuestPicker']['currentDailies'] = [daily]
 
 
+    def reset_weekly(self, daily_type='lunchbox'):
+        '''
+        Resets the weekly quest so that it is always one that gives a lunchbox.
+        '''
+
+        f_history = self.root['completedQuestDataManager']['weeklyQuestPicker']['historyWeeklies'] != []
+
+        if f_history:
+            weekly = self.root['completedQuestDataManager']['weeklyQuestPicker']['historyWeeklies'][-1]
+            weekly_history = self.root['completedQuestDataManager']['weeklyQuestPicker']['historyWeeklies'][:-1]
+            self.root['completedQuestDataManager']['weeklyQuestPicker']['historyWeeklies'] = weekly_history
+        else:
+            weekly = self.root['completedQuestDataManager']['weeklyQuestPicker']['currentWeeklies']
+        
+        weekly['questName'] = 'Weekly_05_Diff_54 '
+        self.root['completedQuestDataManager']['weeklyQuestPicker']['currentWeeklies'] = [weekly]
+
+
     def reset_dweller(self, dweller_index):
         '''
         Resets a Dweller's experience and health to level 1, given its index.
