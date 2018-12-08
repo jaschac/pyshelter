@@ -152,6 +152,20 @@ class PyShelter(object):
             raise
 
 
+    def dwellers_bad_weapons(self, min_dmg=16):
+        '''
+        Returns name and surname of any Dweler holding a weapon whose damage is
+        below the minimum threshold set.
+        '''
+        dws_bad_weapons = []
+        for dw in self.dwellers:
+            dw_equipped_weapon = dw['equipedWeapon']['id']
+            dw_equipped_weapon_dmg = self.sd['Weapon'][dw_equipped_weapon]['dmg']
+            dw_equipped_weapon_dmg = int(dw_equipped_weapon_dmg.split('-')[0])
+            if dw_equipped_weapon_dmg < min_dmg:
+                dws_bad_weapons.append("%s %s" % (dw['name'], dw['lastName']))
+        return dws_bad_weapons
+
     @property
     def dwellers_no_makeup(self):
         '''
