@@ -152,6 +152,16 @@ class PyShelter(object):
             raise
 
 
+    @property
+    def dwellers_no_makeup(self):
+        '''
+        Returns name and surname of any Dweller that did not pass from the
+        Barber shop, yet. These do not have the faceMask property.
+        '''
+        return["%s %s" % (dw['name'], dw['lastName'])
+            for dw in self.dwellers if 'faceMask' not in dw]
+
+
     def dwellers_to_retrain(self, cutoff=85.0):
         '''
         Returns the Dwellers that are have less than 'cutoff' of their maximum
