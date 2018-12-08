@@ -26,8 +26,6 @@ class PyShelter(object):
         if needed, initialized as real class instances.
         '''
         self.root = f_in
-        #self.resources = self.root["vault"]["storage"]["resources"]
-        #self.vault = self.root['vault']
 
         self.sd = {
             'Junk' : load_static_data('junk'),
@@ -222,13 +220,35 @@ class PyShelter(object):
         self.root["vault"]["inventory"]['items'].sort(key=lambda x:x['id'])
 
 
-    def reset_daily(self):
+    def reset_daily(self, daily_type='lunchbox'):
         '''
-        Resets the daily quest, so that it can be replayed again.
+        Resets the daily quest, so that it can be replayed again. The daily can
+        be reset to be a level 50 lunchbox, weapon, outfit, dweller rescue, or
+        pet rescue one. It defaults to a lunchbox.The method first checks if
+        there is an history of daily quests. If so, the last one is removed
+        from the history and added as a new daily. The quest type is finally
+        replaced with the one desired. If no history is present, then the
+        current daily's type is replaced.
         '''
-        daily = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][-1]
-        dailies_history = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][:-1]
-        self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'] = dailies_history
+        dailies_map = {
+            'dweller' : 'Daily_05_Diff_50_C',
+            'junk' : 'Daily_03_Diff_50_C',
+            'lunchbox' : 'Daily_06_Diff_50_C',
+            'outfit' : 'Daily_02_Diff_50_C',
+            'pet' : None,
+            'weapon' : 'Daily_01_Diff_50_C'
+        }
+
+        f_history = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'] != []
+
+        if f_history:
+            daily = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][-1]
+            dailies_history = self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'][:-1]
+            self.root['completedQuestDataManager']['dailyQuestPicker']['historyDailies'] = dailies_history
+        else:
+            daily = self.root['completedQuestDataManager']['dailyQuestPicker']['currentDailies']
+        
+        daily['questName'] = dailies_map[daily_type]
         self.root['completedQuestDataManager']['dailyQuestPicker']['currentDailies'] = [daily]
 
 
