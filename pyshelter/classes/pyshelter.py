@@ -129,7 +129,9 @@ class PyShelter(object):
     def dweller_coffee_break(self, dweller_index=None):
         '''
         Sets a Dweller on coffee break. This is achieved setting his savedRoom
-        attribute to -1.
+        attribute to -1. This also requires iterating the rooms of the Vault,
+        finding the one that has the ID of the dweller assigned to it, removing
+        that entry.
         ''' 
         if dweller_index is None:
             raise ValueError('The Dweller index is expected.')
@@ -138,6 +140,13 @@ class PyShelter(object):
                 % (type(dweller_index).__name__))
 
         try:
+            dw_id = self.dwellers[dweller_index]['serializeId']
+            for room_id, room_dws in shelter.root['happinessManager'].items():
+                _room_dws = []
+                for dw in room_dws:
+                    if dw['dc'] != dw_id:
+                        _room_dws.append(dw)
+            shelter.root['happinessManager'][room_id] = _room_dws
             self.dwellers[dweller_index]["savedRoom"] = -1
         except Exception as e:
             raise
@@ -252,7 +261,7 @@ class PyShelter(object):
         self.root['completedQuestDataManager']['dailyQuestPicker']['currentDailies'] = [daily]
 
 
-    def reset_weekly(self, daily_type='lunchbox'):
+    def reset_weekly(self):
         '''
         Resets the weekly quest so that it is always one that gives a lunchbox.
         '''
