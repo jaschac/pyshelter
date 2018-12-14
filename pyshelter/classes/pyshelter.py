@@ -141,12 +141,15 @@ class PyShelter(object):
 
         try:
             dw_id = self.dwellers[dweller_index]['serializeId']
-            for room_id, room_dws in shelter.root['happinessManager'].items():
+            for room_id, room_dws in self.root['happinessManager'].items():
                 _room_dws = []
                 for dw in room_dws:
-                    if dw['dc'] != dw_id:
+                    try:
+                        if dw['dc'] != dw_id:
+                            _room_dws.append(dw)
+                    except (KeyError, TypeError) as e:
                         _room_dws.append(dw)
-            shelter.root['happinessManager'][room_id] = _room_dws
+            self.root['happinessManager'][room_id] = _room_dws
             self.dwellers[dweller_index]["savedRoom"] = -1
         except Exception as e:
             raise
